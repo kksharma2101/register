@@ -1,0 +1,56 @@
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 35vw;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 20px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 0 0.3px rgb(45, 37, 37);
+}
+.register-container > p {
+  color: #000;
+}
+.register-container > h1 {
+  margin-top: 0;
+}
+.register-container > input {
+  padding: 5px 10px;
+  margin: 10px 0;
+  font-size: 20px;
+  width: 96%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 0 0.3px black;
+}
+
+.register-container > .login-button,
+.register-button {
+  padding: 5px 0;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  background-color: #2222ff;
+  color: #fff;
+}
+.register-container > p {
+  font-size: 30px;
+  margin: 5px 0;
+  color: #fff;
+}
+.register-container > .register-button {
+  margin-top: 10px;
+}
+.register-container > .login-button:hover,
+.register-button:hover {
+  background-color: #0ffb5e;
+  color: #0004fe;
+  opacity: 0.9;
+  transition: 0.6s;
+  cursor: pointer;
+}

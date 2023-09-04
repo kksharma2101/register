@@ -1,0 +1,25 @@
+.homepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 30vw;
+  height: 400px;
+  background-color: #87e8b3;
+  position: relative;
+}
+.logout-button {
+  padding: 7px 20px;
+  font-size: 25px;
+  font-weight: 800;
+  border-radius: 5px;
+  border: none;
+}
+.logout-button:hover {
+  background-color: #000cf9;
+  color: #fff;
+  opacity: 0.7;
+  transition: 0.6s;
+  cursor: pointer;
+}
